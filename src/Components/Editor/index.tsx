@@ -10,8 +10,8 @@ import "prismjs/themes/prism.css";
 import "./custom-prism-theme.css";
 
 const Editor = () => {
-  const [ code, setCode ] = useState('print("Olá, SamoraLang!");');
-  const [ output, setOutput ] = useState('');
+  const [ code, setCode ] = useState('print("Olá,          SamoraLang!");');
+  const [ output, setOutput ] = useState('Olá, SamoraLang!');
   const [ isLoading, setIsLoading ] = useState(false);
   const [ executionTime, setExecutionTime ] = useState(0);
 
